@@ -1,0 +1,29 @@
+{
+  "name": "decent-id",
+  "version": "1.0.0",
+  "description": "My first Decentralized ID, hoping to integrate this with Microsoft Entra Verified ID",
+  "main": "key-pair-gen.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ruth12345678/mevid.github.io.git"
+  },
+  "keywords": [
+    "did",
+    "azure",
+    "mevid",
+    "cybersecurity"
+  ],
+  "author": "ruthika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ruth12345678/mevid.github.io/issues"
+  },
+  "homepage": "https://github.com/Ruth12345678/mevid.github.io#readme",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "elliptic": "^6.5.5"
+  }
+}
