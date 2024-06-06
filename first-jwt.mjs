@@ -3,7 +3,7 @@ import { Resolver } from 'did-resolver';
 import { getResolver } from 'web-did-resolver';
 
 
-{//using a private 32-bit key to create a signer
+//using a private 32-bit key to create a signer
 const key32 = '1f4591997b9924ed8dadb58e006d370545153c0487cc2c6b486ba720cb167349';
 const signer = ES256KSigner(hexToBytes(key32));
 
@@ -36,4 +36,3 @@ verifyJWT(jsonwt, {
     console.error('JWT could not be verified ->\n', error);
 });
 
-}
